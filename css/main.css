@@ -102,6 +102,14 @@ a:active {
 	color:gray;
 }
 
+.lecturetype_design {
+	color: #00B28E;
+}
+
+.lecturetype_production {
+	color: #B2008E;
+}
+
 .homeworkDiv{
 	/*color: #DB3A34;*/
 }
