@@ -37,7 +37,7 @@ p, li {
 a {
 	font-family: Medium, Helvetica;
 	text-decoration: none;
-	color: #B28E00;
+	color: #008EB2;
 }
 
 /* unvisited link */
@@ -90,7 +90,7 @@ a:active {
 
 .navSelected {
 	color: white;
-	background-color: #B28E00;
+	background-color: #008EB2;
 }
 
 .contentBlock {
@@ -103,7 +103,7 @@ a:active {
 }
 
 .lecturetype_design {
-	color: #00B28E;
+	color: #B2B200;
 }
 
 .lecturetype_production {
