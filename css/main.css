@@ -93,6 +93,16 @@ a:active {
 	background-color: #008EB2;
 }
 
+.stepSelected {
+	border-top: solid 2px #00B28E;
+	border-bottom: solid 2px #00B28E;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top:0px;
+	padding-bottom:20px;
+	padding-left:0px;
+}
+
 .contentBlock {
 	padding: 20px 0px 0px 0px;
 }
@@ -107,6 +117,14 @@ a:active {
 }
 
 .lecturetype_production {
+	color: #A30000;
+}
+
+.green_color {
+	color: #00B28E;
+}
+
+.red_color {
 	color: #A30000;
 }
 
