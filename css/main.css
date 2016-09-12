@@ -50,6 +50,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
+	text-decoration: underline;
 }
 
 /* selected link */
@@ -94,13 +95,24 @@ a:active {
 }
 
 .stepSelected {
-	border-top: solid 2px #00B28E;
-	border-bottom: solid 2px #00B28E;
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-top:0px;
+	margin-bottom:15px;
 	padding-top:0px;
-	padding-bottom:20px;
+	padding-bottom:0px;
 	padding-left:0px;
+}
+
+.stepSelected:before {
+	color: #00B28E;
+}
+
+.dot_border{
+	margin-top:-5px;
+	padding-bottom:15px;
+	padding-top:15px;
+	margin-right:60px;
+	border: solid 3px rgba(0,178,142,0.8);
+	background-color: rgba(0,178,142,0.1);
 }
 
 .contentBlock {
